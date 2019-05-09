@@ -8,4 +8,4 @@ wget https://github.com/Raptor3um/lucky_block_verify/blob/master/lb_verify.sh
 chmod +x lb_verify.sh
 ./lb_verify.sh
 ```
-If you see 
+If you see "ismine: true" the address just above that line is a winner.
