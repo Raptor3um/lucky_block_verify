@@ -18,7 +18,6 @@ echo "Checking if you are owner of a lucky block address...."
 
 echo
 
-sleep 2
 set -v
 ./raptoreum-cli validateaddress "RTDhddSmxjqzHtdoTrPHmZS5NB9h12w1WH" | grep ismine
 ./raptoreum-cli validateaddress "RBHcZF8UwHjRwwSmKfYPKtbmcNeFQAy9Yw" | grep ismine
