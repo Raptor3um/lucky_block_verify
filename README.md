@@ -10,7 +10,7 @@ chmod +x lb_verify.sh
 ```
 If you see "ismine: true" the address just above that line is a winner.
 
-This script is updated weekly (addresses) once the last lucky block is hit. If you want to run it for a contest in progress but yet to hit last lucky block:
+You MUST modify this script to use addresses fromthe current contest before running.
 
 - In our Discord type: trm.mineraddress <blockheight> to get the current winning address for a lucky block then add it in the script. Example:
   
