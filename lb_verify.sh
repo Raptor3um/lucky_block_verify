@@ -23,7 +23,7 @@ set -v
 ./raptoreum-cli validateaddress "RBHcZF8UwHjRwwSmKfYPKtbmcNeFQAy9Yw" | grep ismine
 ./raptoreum-cli validateaddress "RJbShmxU79x7tTciJTNwU6rgQfZqwneXH7" | grep ismine
 ./raptoreum-cli validateaddress "RBJS8VPAoi4kw8r56dqN8uvov7PF7V94nz" | grep ismine
-./raptoreum-cli validateaddress "RBJS8VPAoi4kw8r56dqN8uvov7PF7V94nz" | grep ismine
+./raptoreum-cli validateaddress "RHnXvpkbpRwykThtRopUuE7ZVcoMbBSiuT" | grep ismine
 set +v
 echo
 echo "Address verification complete! If you see:"
