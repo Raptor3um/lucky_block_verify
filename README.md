@@ -16,5 +16,5 @@ To verify that you own a winning address you must verify ownership by "signing".
 
 **For CLI:** `./raptoreum-cli signmessage "address" "message"`
   
-  ##Discord
+  ## Discord
   https://discord.gg/2T8xG7e
