@@ -28,7 +28,7 @@ set +v
 echo
 echo "Address verification complete! If you see:"
 echo "ismine: true"
-echo "It means you are a lucky block winner! To claim your Raptoreum IOU Send a random amount of RTM to address "RL4cHa6DJUKL2cfkakoBvBfRZLVbTx9QF9". Then DM Charlie on Discord the amount sent and the address."
+echo "It means you are a lucky block winner! To claim your Raptoreum IOU you must sign a message with your winning address, once done send Charlie the address, message, and signature on Discord."
 sleep 5
 echo "Now checking if you are the owner of any of the regular winning addresses...."
 
@@ -46,6 +46,6 @@ set +v
 
 echo "Address verification complete! If you see:"
 echo "ismine: true"
-echo "It means you are a lucky block winner! To claim your Raptoreum IOU Send a random amount of RTM to address "RL4cHa6DJUKL2cfkakoBvBfRZLVbTx9QF9". Then DM Charlie on Discord the amount sent and the address."
+echo "It means you are a lucky block winner! To claim your Raptoreum IOU you must sign a message with your winning address, once done send Charlie the address, message, and signature on Discord."
 
 exit 0
