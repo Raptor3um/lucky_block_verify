@@ -10,11 +10,9 @@ chmod +x lb_verify.sh
 ```
 If you see "ismine: true" the address just above that line is a winner.
 
-You MUST modify this script to use addresses fromthe current contest before running.
+# Claiming Your IOUs
 
-- In our Discord type: trm.mineraddress <blockheight> to get the current winning address for a lucky block then add it in the script. Example:
-  
-  `rtm.mineraddress 16667`
+To verify that you own a winning address you must verify ownership by "signing". For QT 
   
   ##Discord
   https://discord.gg/2T8xG7e
