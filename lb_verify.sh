@@ -30,7 +30,7 @@ echo "Address verification complete! If you see:"
 echo "ismine: true"
 echo "It means you are a lucky block winner! To claim your Raptoreum IOU Send a random amount of RTM to address "RL4cHa6DJUKL2cfkakoBvBfRZLVbTx9QF9". Then DM Charlie on Discord the amount sent and the address."
 sleep 5
-echo "Now checking if you are the owner of any of the regular winning addresses"
+echo "Now checking if you are the owner of any of the regular winning addresses...."
 
 echo
 
@@ -40,12 +40,12 @@ set -v
 ./raptoreum-cli validateaddress "RXmbFjuRJBD6yoXfEBWFa5RT7k95f9dn2B" | grep ismine
 ./raptoreum-cli validateaddress "REHkt5AtQGNrp4n7TrG6c3gaRtvBxqRq7L" | grep ismine
 ./raptoreum-cli validateaddress "R9WL2sNXHmacxvCusZSDMgaiWJrYZJX5ts" | grep ismine
-/raptoreum-cli validateaddress "RW5rvh1pgr3efXUaQzYnjyufWnY9VV7oyw" | grep ismine
+./raptoreum-cli validateaddress "RW5rvh1pgr3efXUaQzYnjyufWnY9VV7oyw" | grep ismine
 ./raptoreum-cli validateaddress "RBankZekxmn2xYi3qUdNZYMzKT7AE9XT2b" | grep ismine
 set +v
 
 echo "Address verification complete! If you see:"
 echo "ismine: true"
-echo "It means you are a lucky block winner! To claim your Raptoreum IOU Send a random amount of RTM to address "RL4cHa6DJUKL2cfkakoBvBfRZLVbTx9QF9". Then DM Charlie on Discord the amount sent and the address.
+echo "It means you are a lucky block winner! To claim your Raptoreum IOU Send a random amount of RTM to address "RL4cHa6DJUKL2cfkakoBvBfRZLVbTx9QF9". Then DM Charlie on Discord the amount sent and the address."
 
 exit 0
