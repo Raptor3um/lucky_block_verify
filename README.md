@@ -12,7 +12,9 @@ If you see "ismine: true" the address just above that line is a winner.
 
 # Claiming Your IOUs
 
-To verify that you own a winning address you must verify ownership by "signing". For QT 
+To verify that you own a winning address you must verify ownership by "signing". For QT **click File > Sign Message > Enter your winning address > a message > and click "Sign Message".** Send the address, message, and signature to Charlie on Discord.
+
+**For CLI:** `./raptoreum-cli signmessage "address" "message"`
   
   ##Discord
   https://discord.gg/2T8xG7e
