@@ -19,11 +19,11 @@ echo "Checking if you are owner of a lucky block address...."
 echo
 
 set -v
-./raptoreum-cli validateaddress "RBEg8CV6cF2C4HMSm61V5VtvfPsjqCmtPZ" | grep ismine
-./raptoreum-cli validateaddress "RLQg8cCn7XFq3QhGCisLyQfPuR6eQC1Jff" | grep ismine
-./raptoreum-cli validateaddress "RLFvJKb6unLLe9YxbDYiS84t6xP5M7khP4" | grep ismine
-./raptoreum-cli validateaddress "RJSXYBAdfL5AKG7Tp5omHQHfP3yM9y4SCq" | grep ismine
-./raptoreum-cli validateaddress "RQXCvnpLrB8VLYzmioMvTMvUMWuYD9FXMR" | grep ismine
+./raptoreum-cli validateaddress "RXgZf7kWEukvxXBjd3tVyGazBhGhyrw954" | grep ismine
+./raptoreum-cli validateaddress "RNDbDy3MGMLgFNrVdNVSUZWhtpJKh1rr28" | grep ismine
+./raptoreum-cli validateaddress "RUxDDAm5KcoNP3bTLadSVByW7GhqeaiZkN" | grep ismine
+./raptoreum-cli validateaddress "RUbZv8ymHyBfLZYxtAKasUqBFNMPb4EVfA" | grep ismine
+./raptoreum-cli validateaddress "RTVrNXQN6toSTMkCkwqwxtNNY5sdqhMksC" | grep ismine
 set +v
 echo
 echo "Address verification complete! If you see:"
@@ -35,13 +35,13 @@ echo "Now checking if you are the owner of any of the regular winning addresses.
 echo
 
 set -v
-./raptoreum-cli validateaddress "RJMMMcvDXAQSfKKKDMso4gYDK31ZCvYYDY" | grep ismine
-./raptoreum-cli validateaddress "RHaiGEkzgeYr2toMo4jcFVRJQ9jwBPHZ1x" | grep ismine
-./raptoreum-cli validateaddress "RXmbFjuRJBD6yoXfEBWFa5RT7k95f9dn2B" | grep ismine
-./raptoreum-cli validateaddress "REHkt5AtQGNrp4n7TrG6c3gaRtvBxqRq7L" | grep ismine
-./raptoreum-cli validateaddress "R9WL2sNXHmacxvCusZSDMgaiWJrYZJX5ts" | grep ismine
-./raptoreum-cli validateaddress "RW5rvh1pgr3efXUaQzYnjyufWnY9VV7oyw" | grep ismine
-./raptoreum-cli validateaddress "RBankZekxmn2xYi3qUdNZYMzKT7AE9XT2b" | grep ismine
+./raptoreum-cli validateaddress "RWoCCNsKPEUaUERsvtQotjTJpa6Jt8mryg" | grep ismine
+./raptoreum-cli validateaddress "RXbs5EGjyQ5VNKApjWRBNUDg1HQGwvg4kX" | grep ismine
+./raptoreum-cli validateaddress "RVXh7msb8weK7JPuKcPQzQA7P8LrsKh17p" | grep ismine
+./raptoreum-cli validateaddress "RWqexfM1HdCNVfCYoiPX2E2bLCyncKnCwY" | grep ismine
+./raptoreum-cli validateaddress "RNzheo3TFJ25yZtwqoJTkuvitHGui3zrPZ" | grep ismine
+./raptoreum-cli validateaddress "RH8CzT9coKduL4ftHT5skavUEZeKtYG6zm" | grep ismine
+./raptoreum-cli validateaddress "RAh6ynBjqWSb7DWTaeBeHXbkKywp4xKAyT" | grep ismine
 set +v
 
 echo "Address verification complete! If you see:"
