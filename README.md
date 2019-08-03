@@ -6,7 +6,6 @@ Up to date for the May 10 > May 17 mining contest, no editing needed just run it
 ## To Use
 - Run from inside Raptoreum wallet directory (same place as raptoreum-qt, raptoreumd)
 ```
-wget https://raw.githubusercontent.com/Raptor3um/lucky_block_verify/master/lb_verify.sh
 chmod +x lb_verify.sh
 ./lb_verify.sh
 ```
